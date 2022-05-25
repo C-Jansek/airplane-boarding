@@ -42,6 +42,7 @@ module.exports = {
         'no-undefined': 'error',
         'unicorn/prefer-default-parameters': 'off',
         'unicorn/prefer-node-protocol': 'off',
+        'quotes': ['error', 'single', { avoidEscape: true }],
     },
     overrides: [
         {
